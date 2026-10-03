@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This project keeps a Particle CLI with mesh support working. `particle-cli` 2.12.0 is the last version with the `mesh` command; it is removed from 2.13.0 on (`dist/cmd/mesh.js` is missing there). There is no application code, only the dependencies and a wrapper symlink.
+This project exists to keep a Particle Mesh network recoverable after the official deprecation of Gen3 mesh support. The primary use case is re-joining an Argon to a Particle Mesh network after `particle-cli` 2.13.0 removed the `mesh` commands and the supported cloud tooling no longer offers the original workflow.
+
+`particle-cli` 2.12.0 is the last version with the `mesh` command; it is removed from 2.13.0 on (`dist/cmd/mesh.js` is missing there). There is no application code, only the dependencies and a wrapper symlink. The repo intentionally holds on to this last compatible CLI so the USB-based rejoin path can still be used for legacy Argon devices.
 
 ## Layout
 

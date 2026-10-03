@@ -1,7 +1,8 @@
-# Particle CLI 2.12.0
+# Particle Mesh with CLI 2.12.0
 
-Local install of Particle CLI **2.12.0**, the last version with the `particle mesh` commands.
-Particle deprecated Mesh (Thread) for Gen3 devices (Argon, Boron, Xenon). Starting with `particle-cli` 2.13.0 the `mesh` command is removed.
+This repo exists to keep a Particle Mesh network working after the official deprecation of Gen3 mesh support. The goal is to recover and re-join an Argon to a Particle Mesh network even after `particle-cli` 2.13.0 removed the `mesh` commands and the upstream cloud tooling no longer offers the fully supported path.
+
+The project pins Particle CLI **2.12.0**, the last version with the `particle mesh` commands. Particle deprecated Mesh (Thread) for Gen3 devices (Argon, Boron, Xenon), and starting with `particle-cli` 2.13.0 the `mesh` command is removed.
 
 ## Setup
 
